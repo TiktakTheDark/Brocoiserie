@@ -265,3 +265,59 @@ figcaption {
   font-size: x-large;
   
 }
+
+.openinghours {
+
+  border-radius:4px;
+  margin:10px;
+
+  padding:0 10px 0 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.openinghourscontent h2 {
+  display:block;
+  text-align:center;
+  margin-top:.33em;
+}
+
+
+.opening-hours-table tr td:first-child {
+  font-weight:bold;
+}
+
+#open-status {
+  display:block;
+  margin-top:-1em;
+  text-align:center;
+  padding: 5px;
+  font: 55px sans-serif;
+}
+
+
+.opening-hours-table {
+  display: flex;
+  justify-content: center;
+}
+
+.opening-hours-table tr td {
+  padding:5px;
+}
+
+.openorclosed.closed {
+  color:red
+}
+
+.openorclosed.open {
+  color:green
+}
+
+td {
+  font-size: 30px;
+  
+}
+
+.header-heure {
+  padding-bottom: 50px;
+}
